@@ -1,0 +1,67 @@
+{
+  "todos": [
+    {
+      "name": "Список 1",
+      "count_tasks": 1,
+      "is_completed": true,
+      "created_at": 1620335205436,
+      "id": 1
+    },
+    {
+      "name": "Список 2",
+      "count_tasks": 0,
+      "is_completed": false,
+      "created_at": 1620335214957,
+      "id": 2
+    },
+    {
+      "name": "Список 3",
+      "count_tasks": 1,
+      "is_completed": false,
+      "created_at": 1620340606411,
+      "id": 3
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1620335253244,
+      "list_id": null,
+      "name": "дело 1",
+      "is_completed": true,
+      "urgency": false,
+      "created_at": 1620335253244
+    },
+    {
+      "id": 1620335265276,
+      "list_id": null,
+      "name": "дело 2",
+      "is_completed": true,
+      "urgency": true,
+      "created_at": 1620335265276
+    },
+    {
+      "id": 1620336632471,
+      "list_id": 1,
+      "name": "дело 1",
+      "is_completed": true,
+      "urgency": false,
+      "created_at": 1620336632471
+    },
+    {
+      "id": 1620336643454,
+      "list_id": 1,
+      "name": "дело 2",
+      "is_completed": true,
+      "urgency": true,
+      "created_at": 1620336643454
+    },
+    {
+      "id": 1620340620524,
+      "list_id": 3,
+      "name": "дело123",
+      "is_completed": false,
+      "urgency": false,
+      "created_at": 1620340620524
+    }
+  ]
+}
